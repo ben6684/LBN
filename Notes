@@ -1,0 +1,22 @@
+I) Dummy et traduction :
+
+
+ON part du log et on transforme en dataframes 
+
+- Une fonction pour chaque champs du logs
+
+=> Les fonctions de dummification peuvent être gardés 
+
+- quand il n'y a que deux possibilité : On dummys à la volée dans la fonction de traitement du champs 
+
+=> Problèmes : utiisation de get_dummies de pandas sur les champs 
+   - services 
+   - departements
+   - infos macaf (champs de deux lettres)
+   - id_machine 
+   - id_pf_suivante
+
+=> problèmes : PCA n'existe pas en Python 
+
+- thunder  
+
